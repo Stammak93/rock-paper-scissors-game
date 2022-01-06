@@ -22,7 +22,7 @@ const hideImages = () => {
     })
 }
 
-
+// This function has player for argument but is used for npc too
 const processResult = (choices,player) => {
 
     for(let key in choices) {

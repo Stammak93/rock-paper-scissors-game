@@ -34,6 +34,13 @@ body {
     flex-wrap: wrap;
 }
 
+.option:hover {
+    height: 220px;
+    width: 220px;
+    border: 2px solid #a18900;
+    border-radius: 20%;
+}
+
 .result {
     height: 200px;
     width: 200px;
@@ -57,6 +64,6 @@ img {
 
 #text {
     font-size: 30px;
-    color: rgb(161, 137, 0);
+    color: #a18900;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
