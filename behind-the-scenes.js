@@ -22,6 +22,20 @@ const hideImages = () => {
     })
 }
 
+const createReplayButton = () => {
+    
+    let container = document.querySelector("div.options-container")
+    let buttonContainer = document.createElement("div")
+    let button = document.createElement("button")
+
+    buttonContainer.setAttribute("class","replay-button-container")
+    button.setAttribute("class","replay-button")
+    button.textContent = "Play Again"
+
+    container.appendChild(buttonContainer)
+    buttonContainer.appendChild(button)
+}
+
 // This function has player for argument but is used for npc too
 const processResult = (choices,player) => {
 

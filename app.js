@@ -27,6 +27,12 @@ optionEls.forEach((option) =>{
         } else {
             textEl.textContent = "It's a tie!"
         }
+
+        createReplayButton()
+
+        document.querySelector("button.replay-button").addEventListener("click", function(e) {
+            location.reload()
+        })
         
     })
 })

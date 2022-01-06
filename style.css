@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(27, 27, 27);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    /*background-color: #1b1b1b;*/
     margin: 0;
     padding: 0;
     height: 100%;
@@ -22,7 +23,7 @@ body {
     display: flex;
     height: 300px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     gap: 50px;
 }
@@ -37,7 +38,7 @@ body {
 .option:hover {
     height: 220px;
     width: 220px;
-    border: 2px solid #a18900;
+    border: 2px solid #f5a207;
     border-radius: 20%;
 }
 
@@ -59,11 +60,29 @@ img {
     width: 100%;
     height: 100%;
     border-radius: 20%;
-    color:rgba(240, 248, 255, 0);
+    color:#f0f8ff00;
 }
 
 #text {
-    font-size: 30px;
-    color: #a18900;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #f5a207;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.replay-button {
+    height: 100px;
+    width: 100px;
+    color:#f5a207;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Gochi Hand', cursive;
+    border-radius: 20%;
+    background-color:#ebf8e1;
+}
+
+.replay-button:hover {
+    width: 120px;
+    height: 120px;
+    box-shadow: 2px 0px 18px #f5a207;
 }
